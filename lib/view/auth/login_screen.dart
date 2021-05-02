@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+
 import 'package:sparkcart/constants.dart';
+import 'package:sparkcart/view/widgets/custom_social_button.dart';
 import 'package:sparkcart/view/widgets/custom_text.dart';
 import '../widgets/custom_text_form_field.dart';
+import '../widgets/custom_button.dart';
 
 class LoginScreen extends StatelessWidget {
   @override
@@ -9,7 +12,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.grey.shade50,
       ),
       body: Padding(
         padding: const EdgeInsets.only(
@@ -29,7 +32,7 @@ class LoginScreen extends StatelessWidget {
                 CustomText(
                   text: "SignUp",
                   fontSize: 18,
-                  color: Colors.green,
+                  color: primaryColor,
                 ),
               ],
             ),
@@ -58,6 +61,30 @@ class LoginScreen extends StatelessWidget {
                 CustomText(
                   text: "Forgot Password?",
                   alignment: Alignment.topRight,
+                ),
+                SizedBox(height: 20),
+                CustomButton(
+                  onPress: () {},
+                  text: "SignUp",
+                  padding: 18,
+                ),
+                SizedBox(height: 30),
+                CustomText(
+                  text: "-OR-",
+                  alignment: Alignment.center,
+                  fontSize: 20,
+                ),
+                SizedBox(height: 30),
+                CustomButtonSocial(
+                  text: "Sign In with Facebook",
+                  imageName: 'assets/images/fb.png',
+                  onPress: () {},
+                ),
+                SizedBox(height: 20),
+                CustomButtonSocial(
+                  text: "Sign In with Google",
+                  imageName: 'assets/images/fb.png',
+                  onPress: () {},
                 ),
               ],
             ),
