@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sparkcart/view.auth/login_screen.dart';
+import 'package:sparkcart/view/auth/login_screen.dart';
+
 
 void main() {
   runApp(MyApp());
