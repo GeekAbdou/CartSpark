@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
               text: "Sign in to Continue",
               color: Colors.grey,
             ),
-            SizedBox(height: 40),
+            SizedBox(height: 50),
             Column(
               children: [
                 CustomTextFormField(
@@ -62,28 +62,28 @@ class LoginScreen extends StatelessWidget {
                   text: "Forgot Password?",
                   alignment: Alignment.topRight,
                 ),
-                SizedBox(height: 20),
+                SizedBox(height: 30),
                 CustomButton(
                   onPress: () {},
                   text: "SignUp",
                   padding: 18,
                 ),
-                SizedBox(height: 30),
+                SizedBox(height: 40),
                 CustomText(
                   text: "-OR-",
                   alignment: Alignment.center,
                   fontSize: 20,
                 ),
-                SizedBox(height: 30),
+                SizedBox(height: 60),
                 CustomButtonSocial(
                   text: "Sign In with Facebook",
-                  imageName: 'assets/images/fb.png',
+                  imageName: 'assets/images/facebook.png',
                   onPress: () {},
                 ),
                 SizedBox(height: 20),
                 CustomButtonSocial(
                   text: "Sign In with Google",
-                  imageName: 'assets/images/fb.png',
+                  imageName: 'assets/images/google.png',
                   onPress: () {},
                 ),
               ],

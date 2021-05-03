@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "34029343970",
+    "project_id": "spartcart-29d50",
+    "storage_bucket": "spartcart-29d50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34029343970:android:41b965ba21559449447abb",
+        "android_client_info": {
+          "package_name": "com.example.sparkcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34029343970-vvmq3m0clqn844hpp2ba2bmp1pnsbr2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sparkcart",
+            "certificate_hash": "c0749008780e577ca59a6b3fda2494588bd37c33"
+          }
+        },
+        {
+          "client_id": "34029343970-snj2cbgnno2ubogkd24hg3trgko7ihc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVI6yjexGiW1ufHx9qsuZOW_kxpxOuYeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34029343970-snj2cbgnno2ubogkd24hg3trgko7ihc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
