@@ -20,6 +20,7 @@ class CustomButtonSocial extends StatelessWidget {
         borderRadius: BorderRadius.circular(11),
         color: Colors.grey.shade200,
       ),
+      // ignore: deprecated_member_use
       child: FlatButton(
         onPressed: onPress,
         shape: new RoundedRectangleBorder(

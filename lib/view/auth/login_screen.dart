@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'package:sparkcart/constants.dart';
+import 'package:sparkcart/core/view_model/auth_view_model.dart';
 import 'package:sparkcart/view/widgets/custom_social_button.dart';
 import 'package:sparkcart/view/widgets/custom_text.dart';
 import '../widgets/custom_text_form_field.dart';
 import '../widgets/custom_button.dart';
+//import 'package:firebase_core/firebase_core.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends GetWidget<AuthViewModel> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -84,7 +87,9 @@ class LoginScreen extends StatelessWidget {
                 CustomButtonSocial(
                   text: "Sign In with Google",
                   imageName: 'assets/images/google.png',
-                  onPress: () {},
+                  onPress: () {
+                    controller.googleSignInMethod();
+                  },
                 ),
               ],
             ),
