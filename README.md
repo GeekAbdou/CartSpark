@@ -61,8 +61,7 @@
 <div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/1.PNG">
 <hr/>
-</div><
-div align='center'>
+</div><div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/2.PNG">
 <hr/>
 </div><div align='center'>
@@ -73,8 +72,7 @@ div align='center'>
 <hr/>
 </div><div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/5.PNG">
-<hr/>
-</div>
+<hr/></div>
 <div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/6.PNG">
 <hr/>
@@ -83,8 +81,7 @@ div align='center'>
 <hr/>
 </div><div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/8.PNG">
-<hr/>
-</div>
+<hr/></div>
 <div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/9.PNG">
 <hr/>
@@ -99,5 +96,4 @@ div align='center'>
 <hr/>
 </div><<div align='center'>
 <img height="600px" src="https://raw.githubusercontent.com/GeekAbdou/CartSpark/main/images/13.PNG">
-<hr/>
-</div><
+<hr/></div>
