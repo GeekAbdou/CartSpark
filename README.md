@@ -3,7 +3,16 @@
 <table>
 <tr>
 <td>
+<strong>An App to your shop , you can Add products , Edit products , Favorites products , Making filter to your products , Admin and user accounts , Purchasing products .</strong>
+</td>
+</tr>
+</table>
+
 ## Screens it contains:
+
+<table>
+<tr>
+<td>
 
 => Splash
 
