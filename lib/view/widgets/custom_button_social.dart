@@ -18,9 +18,8 @@ class CustomButtonSocial extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(11),
-        color: Colors.grey.shade200,
+        color: Colors.grey.shade50,
       ),
-      // ignore: deprecated_member_use
       child: FlatButton(
         onPressed: onPress,
         shape: new RoundedRectangleBorder(

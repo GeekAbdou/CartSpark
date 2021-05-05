@@ -1,10 +1,15 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomText extends StatelessWidget {
   final String text;
+
   final double fontSize;
+
   final Color color;
+
   final Alignment alignment;
+
   final int maxLine;
   final double height;
 

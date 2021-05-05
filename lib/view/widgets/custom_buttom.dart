@@ -1,28 +1,28 @@
 import 'package:flutter/material.dart';
 
-import 'package:sparkcart/constants.dart';
+import '../../constance.dart';
 import 'custom_text.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
+
   final Color color;
+
   final Function onPress;
-  final double  padding;
+
   CustomButton({
     @required this.onPress,
     this.text = 'Write text ',
     this.color = primaryColor,
-    @required this.padding ,
   });
 
   @override
   Widget build(BuildContext context) {
-    // ignore: deprecated_member_use
     return FlatButton(
       shape: new RoundedRectangleBorder(
         borderRadius: new BorderRadius.circular(10.0),
       ),
-      padding: EdgeInsets.all(padding),
+      padding: EdgeInsets.all(10),
       onPressed: onPress,
       color: primaryColor,
       child: CustomText(

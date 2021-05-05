@@ -1,10 +1,13 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_text.dart';
 
 class CustomTextFormField extends StatelessWidget {
   final String text;
+
   final String hint;
+
   final Function onSave;
   final Function validator;
 
